@@ -2,4 +2,10 @@
 def hello(name):
     return "Hello {} have a woderful day.".format(name)
 
-print(hello(input('Enter your name:\n')))
+def night(name):
+    return "Hello {} have a woderful night.".format(name)
+
+name = (input('Enter your name:\n'))
+
+print(hello(name))
+print(night(name))
